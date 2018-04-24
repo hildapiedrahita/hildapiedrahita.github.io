@@ -15,8 +15,11 @@ body {
 }
 
 #primary-nav {
-    background-color: #fafafa;
-    padding: 10px 100px;
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    padding-left: 18%;
     height: 30px;
     margin: 20px 0px;
 }
@@ -36,7 +39,7 @@ body {
 }
 
 #slide1-work img {
-    width: 50%;
+    width: 25%;
 }
 
 .paragraph {
@@ -52,6 +55,8 @@ body {
 .paragraph h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #4a4a4a;
-    font-weight: 400;
+    color: #000;
+    font-weight: 800;
+    padding-bottom:5px;
+    padding-top: 10px;
 }
