@@ -14,6 +14,7 @@ table {
 }
 fieldset,img {
     border: 0;
+    max-height: 400px;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
     font-weight: normal;
@@ -31,13 +32,23 @@ caption,th {
     text-align: left;
 
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h4,h5,h6 {
     font-weight: normal;
     font-size: 100%;
     margin:0;
     padding:0;
     color:#444;
 }
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 800;
+    padding-bottom:5px;
+    padding-top: 10px;
+}
+
 q:before,q:after {
     content:'';
 }
@@ -62,7 +73,7 @@ h1{
 	font-size: 6em;
 }
 p{
-	font-size: 2em;
+
 }
 .intro p{
 	width: 50%;
@@ -306,6 +317,5 @@ p{
 @media screen and (max-width: 880px) {
 	fieldset,img {
 	    border: 0;
-	    width: 50%;
 	}
 }

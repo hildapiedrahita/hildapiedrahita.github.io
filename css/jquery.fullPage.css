@@ -51,6 +51,12 @@ html.fp-enabled,
     table-layout:fixed;
     width: 100%;
 }
+
+#slide-text p{
+    padding: 0 20%;
+    text-align: left;
+}
+
 .fp-tableCell {
     display: table-cell;
     vertical-align: top;
@@ -121,19 +127,21 @@ html.fp-enabled,
 
 .fp-controlArrow.fp-prev {
     color: transparent;
-    left: 15px;
-    margin-left:100px;
+    left: 0px;
+    margin-left:60px;
     width: 0;
-    border-width: 43.5px 23px 1.5px 0; 
+    border-width: 46.5px 26px 0.5px 0;
     background-image: url(../assets/arrow-left.svg);
+    opacity:0.5;
 }
 
 .fp-controlArrow.fp-next {
     color: transparent;
-    margin-right:100px;
-    right: 15px;
-    border-width: 0px 0 43.5px 22px;
+    margin-right:60px;
+    right: 0px;
+    border-width: 0px 0 45.5px 25px;
     background-image: url(../assets/arrow-right.svg);
+    opacity:0.5;
 }
 .fp-scrollable {
     overflow: scroll;
