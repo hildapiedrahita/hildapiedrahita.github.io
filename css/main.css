@@ -89,6 +89,7 @@ body {
 	position: absolute;
     left: 0;
     right: 0;
+    bottom: 0;
     border-top: 1px solid #fff;
     margin-top: 40px;
 }
@@ -100,7 +101,7 @@ body {
     padding: 10px;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 90%;
 }
 
 @media (max-width: 768px) {
