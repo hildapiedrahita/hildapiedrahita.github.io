@@ -41,6 +41,7 @@ html.fp-enabled,
 .fp-slides {
     z-index:1;
     height: 100%;
+    margin-top: 5%;
     overflow: hidden;
     position: absolute;
     -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */

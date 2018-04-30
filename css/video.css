@@ -14,6 +14,7 @@ table {
 }
 fieldset,img {
     border: 0;
+    max-width: 600px;
     max-height: 400px;
 }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -43,9 +44,9 @@ h1,h2,h4,h5,h6 {
 h3 {
 	font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #4a4a4a;
+    color: #000;
     font-weight: 800;
-    padding-bottom:5px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
