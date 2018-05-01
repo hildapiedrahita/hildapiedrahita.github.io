@@ -50,12 +50,6 @@ body {
 	color: #9b9b9b;
 }
 
-#slide1-work img {
-    /*width: 25%;*/
-    max-height: 400px;
-    max-width: 600px;
-}
-
 #slide1-text {
     background-color: red;
 }

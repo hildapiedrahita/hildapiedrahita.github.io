@@ -315,8 +315,20 @@ p{
 		color: #fff;
 	}
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 680px) {
 	fieldset,img {
 	    border: 0;
+	    max-height: 400px;
+    	max-width: 480px;
+    	padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	fieldset,img {
+	    border: 0;
+	    max-height: 400px;
+    	max-width: 280px;
+    	padding: 0 10px;
 	}
 }
