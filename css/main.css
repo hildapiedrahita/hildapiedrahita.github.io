@@ -98,9 +98,19 @@ body {
     width: 90%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	#primary-nav li {  
 		display: block;
 	    padding: 5px;
 	}
+}
+
+@media (max-width: 400px) {
+    #header a {
+        font-size: 30px;
+    }
+
+    #primary-nav li a {
+        font-size: 14px;
+    }
 }
