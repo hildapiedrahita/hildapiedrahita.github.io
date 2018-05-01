@@ -318,7 +318,7 @@ p{
 @media screen and (max-width: 680px) {
 	fieldset,img {
 	    border: 0;
-	    max-height: 400px;
+	    max-height: 300px;
     	max-width: 480px;
     	padding: 0 10px;
 	}
@@ -327,7 +327,7 @@ p{
 @media screen and (max-width: 400px) {
 	fieldset,img {
 	    border: 0;
-	    max-height: 400px;
+	    max-height: 200px;
     	max-width: 280px;
     	padding: 0 10px;
 	}
