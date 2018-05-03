@@ -55,7 +55,7 @@ html.fp-enabled,
 }
 
 .fp-tableCell {
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: top;
     width: 100%;
 }
