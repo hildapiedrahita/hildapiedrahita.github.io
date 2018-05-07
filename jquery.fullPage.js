@@ -163,8 +163,8 @@
             fixedElements: null,
             responsive: 0, //backwards compabitility with responsiveWiddth
             responsiveWidth: 0,
-            responsiveHeight: 500,
-            responsiveSlides: false,
+            responsiveHeight: 900,
+            responsiveSlides: true,
 
             //Custom selectors
             sectionSelector: SECTION_DEFAULT_SEL,
