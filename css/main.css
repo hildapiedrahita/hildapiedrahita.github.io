@@ -49,8 +49,19 @@ body {
 	color: #9b9b9b;
 }
 
+#bio {
+    margin-left: 20%;
+}
+
+.paragraph-about {
+    margin: 0px 10% 10% 2%;
+    float:left;
+    width: 500px;
+}
+
 .paragraph {
-    margin: 0px 10% 10% 5%;
+    margin: 0px 10% 10% 15%;
+    float:left;
 }
 
 .paragraph p { 
@@ -69,7 +80,13 @@ body {
 }
 
 .paragraph img {
-    display: block;  
+    margin: 0px 10% 10% 2%;
+    float: left;
+    width: 500px;
+}
+
+.img-left {
+    float: left;
 }
 
 #footer {
